@@ -1,0 +1,38 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.izquierda{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    gap: 15px;
+    margin: 60px;
+}
+iz-cabeza{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.derecha{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 15px;
+    margin-right: 250px;
+    margin-left: 10px;
+}
+
+.datos-per{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.comentario{
+    display: flex;
+    justify-content: center;
+}
